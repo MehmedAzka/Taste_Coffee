@@ -140,7 +140,17 @@ $alldata = mysqli_num_rows($sql_c);
 
               No matter what you are looking for in a coffee shop, you are sure to find one that meets your needs.
               Coffee shops are a great place to enjoy a cup of coffee, get some work done, or simply relax and
-              people-watch. <br>
+              people-watch. <br><br>
+
+
+              PROBLEMS ON THIS WEB: <br><br>
+
+              1. INNER JOIN for order items <br>
+              2. Counting amount items <br>
+              3. Payment method <br>
+              4. Can't book a table yet <br>
+              5. Can't create an account yet <br>
+              6. Can't use search <br>
             </p>
             <!-- <a href="">
               Read More
