@@ -8,4 +8,11 @@ if (isset($_POST['id_order'])) {
     $order = $conn->query($sql);
     
 }
+
+if (isset($_POST['buy'])) {
+    $id_coffee = $_POST['buy'];
+    $sql = "SELECT * FROM coffee WHERE id_coffee=$id_coffee";
+
+    $query = "INSERT INTO order_item ()";
+}
 ?>

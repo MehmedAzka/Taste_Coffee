@@ -25,10 +25,10 @@ $alldata = mysqli_num_rows($sql_c);
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Taste </title>
+  <title> Taste - Menu</title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -37,8 +37,6 @@ $alldata = mysqli_num_rows($sql_c);
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
     integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
     crossorigin="anonymous" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
@@ -150,7 +148,7 @@ $alldata = mysqli_num_rows($sql_c);
                     <?php echo $result['price']; ?>K
                   </h6>
                   <form action="php/action.php" method="post">
-                    <button name="buy">
+                    <button name="buy" type="submit">
                       <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
                     </button>
                   </form>

@@ -23,7 +23,7 @@ $alldata = mysqli_num_rows($sql_c);
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Taste </title>
+  <title> Taste - Book Table</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
